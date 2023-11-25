@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './components/Banner';
 import Row from './components/Row';
 import requests from './Request';
+import Navbar from './components/Navbar';
 
 
 
@@ -13,10 +14,10 @@ function App() {
   return (
     <div className="app">
       
-
-         
+     
+         <Navbar/>
       <Banner/>
-     <h1>netflix clone</h1>
+    
  
 
 
