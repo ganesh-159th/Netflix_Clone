@@ -1,5 +1,6 @@
 
 import './App.css';
+import Banner from './components/Banner';
 import Row from './components/Row';
 import requests from './Request';
 
@@ -11,11 +12,15 @@ import requests from './Request';
 function App() {
   return (
     <div className="app">
+      
 
+         
+      <Banner/>
      <h1>netflix clone</h1>
+ 
 
 
-     
+
      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} 
       isLargeRow />
 
